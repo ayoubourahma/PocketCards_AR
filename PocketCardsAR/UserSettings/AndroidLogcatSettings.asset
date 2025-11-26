@@ -1,13 +1,50 @@
 {
-    "m_SelectedDeviceId": "",
+    "m_SelectedDeviceId": "R9TWB05WASY",
     "m_SelectedProcess": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "R9TWB05WASY",
+        "name": "com.unity.template.ar_mobile",
+        "processId": 16489,
         "exited": false
     },
     "m_SelectedPriority": 0,
-    "m_KnownProcessesForSerialization": [],
+    "m_KnownProcessesForSerialization": [
+        {
+            "deviceId": "R9TWB05WASY",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 25274,
+            "exited": true
+        },
+        {
+            "deviceId": "R9TWB05WASY",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 7301,
+            "exited": true
+        },
+        {
+            "deviceId": "R9TWB05WASY",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 8236,
+            "exited": true
+        },
+        {
+            "deviceId": "R9TWB05WASY",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 14856,
+            "exited": true
+        },
+        {
+            "deviceId": "R9TWB05WASY",
+            "name": "com.sec.android.app.launcher",
+            "processId": 2725,
+            "exited": false
+        },
+        {
+            "deviceId": "R9TWB05WASY",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 16489,
+            "exited": false
+        }
+    ],
     "m_Tags": {
         "m_Entries": [
             {
@@ -45,13 +82,24 @@
         "Height": 0.0
     },
     "m_MemoryViewerState": {
-        "MemoryWindowWidth": 0.0,
-        "MemoryTypeEnabled": [],
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
         "MemoryGroup": 2,
         "AutoCapture": true
     },
     "m_FilterOptions": {
-        "m_Filter": "",
+        "m_Filter": "TRACKING FOUND",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },

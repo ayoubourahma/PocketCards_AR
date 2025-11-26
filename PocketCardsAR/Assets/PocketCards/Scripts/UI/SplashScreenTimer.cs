@@ -12,11 +12,7 @@ public class SplashScreenTimer : MonoBehaviour
 
     [Header("Target Object")]
     public GameObject targetObject;
-    public RectTransform infoTab;
-
     private Image splashImage;
-    private Vector2 infoTabOriginalPos;
-    private Vector2 infoTabHiddenPos;
 
     private void Start()
     {
@@ -26,16 +22,6 @@ public class SplashScreenTimer : MonoBehaviour
             Debug.LogError("No Image component found on this GameObject!");
             return;
         }
-
-        // Store InfoTab’s original position
-        if (infoTab != null)
-        {
-            infoTabOriginalPos = infoTab.anchoredPosition;
-            // Move it below screen (hidden)
-            infoTabHiddenPos = infoTabOriginalPos + new Vector2(0, -infoTab.rect.height);
-            infoTab.anchoredPosition = infoTabHiddenPos;
-        }
-
         // Start the timer
         Invoke(nameof(StartFade), delay);
     }
@@ -64,16 +50,9 @@ public class SplashScreenTimer : MonoBehaviour
 
         // Fully transparent
         splashImage.color = new Color(startColor.r, startColor.g, startColor.b, 0f);
-
-        // Now slide InfoTab up smoothly
-        if (infoTab != null)
-        {
-            infoTab.DOAnchorPos(infoTabOriginalPos, 1.5f)
-                   .SetEase(Ease.OutCubic);
-        }
-
+        
         // Disable the splash screen GameObject after the animation
         yield return new WaitForSeconds(0.2f);
-        gameObject.SetActive(false);
+        gameObject.transform.parent.gameObject.SetActive(false);
     }
 }

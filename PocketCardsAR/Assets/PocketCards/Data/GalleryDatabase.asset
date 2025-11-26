@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbde9496f78d3ff4aa09bcbb2549d838, type: 3}
+  m_Name: GalleryDatabase
+  m_EditorClassIdentifier: 
+  categories:
+  - categoryName: Quotidien
+    images:
+    - isLocked: 1
+      imageName: LE THE
+      texture: {fileID: 2800000, guid: 312b712d398104a4ca6f1e2c77e59c24, type: 3}
+  - categoryName: "\xC9vasion"
+    images:
+    - isLocked: 1
+      imageName: REBAB
+      texture: {fileID: 2800000, guid: 3d41459dbabff7d4c8be6f0c3dec013a, type: 3}
+    - isLocked: 1
+      imageName: IGOUDAR
+      texture: {fileID: 2800000, guid: a7631b9d83d043b44b38f9ef31772f55, type: 3}
+  - categoryName: En Ville
+    images:
+    - isLocked: 1
+      imageName: ANZA
+      texture: {fileID: 2800000, guid: d17747f6a36e96849bcd9c2c77c5c0b6, type: 3}
+    - isLocked: 1
+      imageName: AGADIR OUFELA
+      texture: {fileID: 2800000, guid: 4fddcbe42fc545547a3f637c3024bba6, type: 3}
+  - categoryName: "Culture & H\xE9ritage"
+    images:
+    - isLocked: 1
+      imageName: ARGAN
+      texture: {fileID: 2800000, guid: 7ac2ad99d2bb6504dbd3c9292a77c9ba, type: 3}
+    - isLocked: 1
+      imageName: MARIAGE AMAZIGH
+      texture: {fileID: 2800000, guid: 479dd39684721504c94257f7f05d59d5, type: 3}

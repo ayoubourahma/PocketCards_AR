@@ -70,12 +70,15 @@
     <Compile Include="Assets\PocketCards\Scripts\AR\ImageTrackingSpawner.cs" />
     <Compile Include="Assets\PocketCards\Scripts\AR\TrackedImageInfoMultipleManager.cs" />
     <Compile Include="Assets\PocketCards\Scripts\UI\CardTilt.cs" />
+    <Compile Include="Assets\PocketCards\Scripts\Managers\UIManager.cs" />
     <Compile Include="Assets\PocketCards\Scripts\UI\CardCarousel.cs" />
     <Compile Include="Assets\PocketCards\Scripts\CategoryItemUI.cs" />
     <Compile Include="Assets\PocketCards\Scripts\UI\GalleryUI.cs" />
     <Compile Include="Assets\PocketCards\Scripts\UI\VideoAndScreenshot.cs" />
     <Compile Include="Assets\PocketCards\Scripts\UI\OnBordingHandler.cs" />
     <Compile Include="Assets\MobileARTemplateAssets\Scripts\GoalManager.cs" />
+    <Compile Include="Assets\PocketCards\Scripts\System\SearchManager.cs" />
+    <Compile Include="Assets\PocketCards\Scripts\System\SearchResultItem.cs" />
     <Compile Include="Assets\PocketCards\Scripts\AR\XRController.cs" />
     <Compile Include="Assets\PocketCards\Scripts\AR\MultiImageAnchorSpawner.cs" />
     <Compile Include="Assets\PocketCards\Scripts\UI\SplashScreenTimer.cs" />
@@ -973,12 +976,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.XR.ARCore">
       <HintPath>Library\ScriptAssemblies\Unity.XR.ARCore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">

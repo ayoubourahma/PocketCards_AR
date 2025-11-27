@@ -15,7 +15,7 @@ MonoBehaviour:
   categories:
   - categoryName: Quotidien
     images:
-    - isLocked: 1
+    - isLocked: 0
       imageName: LE THE
       texture: {fileID: 2800000, guid: 312b712d398104a4ca6f1e2c77e59c24, type: 3}
   - categoryName: "\xC9vasion"

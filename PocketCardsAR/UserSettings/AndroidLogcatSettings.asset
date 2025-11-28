@@ -3,7 +3,7 @@
     "m_SelectedProcess": {
         "deviceId": "R9TWB05WASY",
         "name": "com.unity.template.ar_mobile",
-        "processId": 16489,
+        "processId": 17805,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -42,6 +42,54 @@
             "deviceId": "R9TWB05WASY",
             "name": "com.unity.template.ar_mobile",
             "processId": 16489,
+            "exited": false
+        },
+        {
+            "deviceId": "R9TWB05WASY",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 3680,
+            "exited": false
+        },
+        {
+            "deviceId": "R9TWB05WASY",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 6401,
+            "exited": false
+        },
+        {
+            "deviceId": "R9TWB05WASY",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 7835,
+            "exited": false
+        },
+        {
+            "deviceId": "R9TWB05WASY",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 8682,
+            "exited": false
+        },
+        {
+            "deviceId": "R9TWB05WASY",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 12367,
+            "exited": false
+        },
+        {
+            "deviceId": "R9TWB05WASY",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 13257,
+            "exited": false
+        },
+        {
+            "deviceId": "R9TWB05WASY",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 16817,
+            "exited": false
+        },
+        {
+            "deviceId": "R9TWB05WASY",
+            "name": "com.unity.template.ar_mobile",
+            "processId": 17805,
             "exited": false
         }
     ],
@@ -99,7 +147,7 @@
         "AutoCapture": true
     },
     "m_FilterOptions": {
-        "m_Filter": "TRACKING FOUND",
+        "m_Filter": "",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },
